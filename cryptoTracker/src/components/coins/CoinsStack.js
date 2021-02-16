@@ -18,7 +18,7 @@ const CoinsStack = () => {
       }}>
       <Stack.Screen name="Coins" component={CoinsScreen} />
       <Stack.Screen
-        options={{headerShown: false}}
+        //options={{headerShown: false}}
         name="CoinDetail"
         component={CoinDetailScreen}
       />
