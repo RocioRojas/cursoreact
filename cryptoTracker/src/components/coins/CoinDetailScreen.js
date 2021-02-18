@@ -22,6 +22,7 @@ class CoinDetailScreen extends Component {
   }
   render() {
     const {coin} = this.state;
+    console.log('Obteniendo coins', coin);
     return (
       <View style={styles.container}>
         <View style={styles.subHeader}>
